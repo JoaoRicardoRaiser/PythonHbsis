@@ -5,33 +5,38 @@
 
     </head>
     <body>
-        <div>
-            <h1>Novo Aluno</h1>
+        <div class="titulo">
+            <h1 class="titulo">Novo Aluno</h1>
+        <div class="logo_novo">
+            <img src="../static/img/maxresdefault.jpg" alt="">
         </div>
-        <form action="/salvar" method="POST">
-            <div class="labels">
-                <label for="">Nome : </label>
-                
-            </div>
-            <input type="text" name="nome"> <br/>
+        <div class="conteudo">
             
-            <div class="labels">
-                <label for="">Sobrenome: </label>
+            <form action="/salvar" method="POST">
+                <div class="labels">
+                    <label for="">Nome : </label>
+                    
+                </div>
+                <input type="text" name="nome" class="text-box"> <br/>
                 
-            </div>
-            <input type="text" name="sobrenome"> <br/>
-            
-            <div class="labels">
-                <label for="">Telefone: </label>
+                <div class="labels">
+                    <label for="">Sobrenome: </label>
+                    
+                </div>
+                <input type="text" name="sobrenome" class="text-box"> <br/>
                 
-            </div>           
-            <input type="text" name="telefone"> <br/>
-            
-            <hr />
-            <div>
-                <input class="voltar" type="submit" value="Salvar">
-                <a class="voltar" href="/">Voltar</a>
-            </div>
-        </form>
-    </body>
-</html>
+                <div class="labels">
+                    <label for="">Telefone: </label>
+                    
+                </div>           
+                <input type="text" name="telefone" class="text-box"> <br/>
+                
+                <hr />
+                <div>                
+                    <input class="btn" type="submit" value="Salvar">
+                    <button class="btn voltar" href="/">Voltar</button>
+                </div>
+            </form>
+        </div>
+        </body>
+        </html>

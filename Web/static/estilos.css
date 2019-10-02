@@ -8,7 +8,7 @@ body{
 .novo a{
     text-transform: uppercase;
     color: #000000;
-    background: #26962f;
+    background: #dedfde;
     border: 1px solid #000000;
     padding: 0.2em 0.5em;
     text-decoration: none;
@@ -47,4 +47,19 @@ tbody td:hover{
     background: #686666;
     color: #000000
 }
-
+.logo{
+    width: 100%;
+    height: 3em;
+}
+.logo img{
+    width: 10em
+}
+.link a{
+    background: #000000;
+    color: #ffffff;
+    width: 10%;
+    text-align: right;
+    border: #00e20b;
+    text-decoration: none;
+    
+}
