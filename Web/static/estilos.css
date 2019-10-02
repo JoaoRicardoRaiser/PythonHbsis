@@ -1,0 +1,50 @@
+body{
+    background: #cccccc
+}
+.cabecalho,.novo{
+    width:60%;
+    margin:auto;
+}
+.novo a{
+    text-transform: uppercase;
+    color: #000000;
+    background: #26962f;
+    border: 1px solid #000000;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    
+}
+.novo a:hover{
+    background: #000000;
+    color: #ffffff
+}
+
+table{
+    width:60%; 
+    margin:1em auto;
+    border-collapse: collapse;
+}
+thead{
+    background: #6d6d6d;
+    color: #000000;
+    height: 4em;
+    border: solid #000000
+}
+th{
+    height: 2em;
+    text-align: left;
+    padding: 0.5em 0 0 1em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+td{
+    height: 1.5em;
+    padding: 0.5em 1em;
+    border: 1px solid #000000;
+    /* background: #686666; */
+}
+tbody td:hover{
+    background: #686666;
+    color: #000000
+}
+
