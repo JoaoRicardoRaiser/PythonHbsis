@@ -1,11 +1,12 @@
 {% extends "tbl.html" %}
 {% block conteudo %}
-    <body>
+<div id="frase_pedido">
     <h1>Selecione seu pedido: </h1>
+</div>
         <!-- <div id="imgcerveja">
             <img src="../static/img/cerveja.png" alt=""> -->
     <form action="/salvar_pedido">
-        </div>
+        
         <div class="opcoes">
             Cerveja:
             <input type="text">
@@ -18,6 +19,4 @@
             <input type="submit" value="Realizar pedido">
         </div>
     </form>
-
-    </body>
 {% endblock %}

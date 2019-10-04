@@ -40,18 +40,16 @@ body{
     width: 80%;
     height: 500px;
     margin: 2em auto;
-    border: 1px solid #000;
+    border: 1px solid #000000;
 }
 .opcoes{
-    width: 10%;
-    height: 10%;
-    text-align: left;
-    margin-top: 8em;
-    margin: 8em 0 0 0.5em;
+    width: 1%;
+    height: 1px;
+    margin: 15em 0 0 16em;
 }
 .opcoes input{
-    text-align: center;
-    margin: 1em
+    /* margin: 1em */
+    margin: 0 0 0 1px;
 }
 #salvar{
     margin: 2em 0 0 0.5em;
@@ -83,4 +81,9 @@ h1{
     margin: 1em 0 0 1em;
 
 
+}
+#frase_pedido{
+    width: 10%;
+    height: 10%;
+    margin: 100em 0 0 10em;
 }

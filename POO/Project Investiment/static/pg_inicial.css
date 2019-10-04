@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+.logo img{ /* Esse bloco serve para editar o logo da página */ 
+    max-width: 200px;
+    max-height: 200px;
+    margin: -150px auto -100px -900px;
+}
+.jumbotron{
+    height: 170px;
+}
