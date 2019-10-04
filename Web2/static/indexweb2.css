@@ -1,0 +1,9 @@
+body{
+    margin: 0; /* Serve para retirar a margem do corpo da página */
+}
+
+.cabecalho{
+    width: 100%;
+    background: #000000;
+    height: 150px;
+}

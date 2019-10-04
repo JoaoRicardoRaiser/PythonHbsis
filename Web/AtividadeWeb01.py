@@ -25,8 +25,4 @@ def salvar():
     novo_aluno = Alunos (nome,sobrenome,telefone)
     lista_alunos.append(novo_aluno)
     return redirect("/")
-
-
-
-
 app.run()

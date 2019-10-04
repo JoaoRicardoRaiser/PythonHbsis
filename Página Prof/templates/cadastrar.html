@@ -1,0 +1,44 @@
+{% extends "tbl.html" %}
+{% block conteudo %}
+<div id="img">
+<img src="../static/img/Ambev.png">
+</div>
+<div id="Cadastrar">
+    <h1>Cadastrar Cerveja</h1>
+    <form action="/salvar" method="POST">
+        <div class="blocks">
+            <div class="labels">
+                <label for="">Nome:</label>
+            </div>
+            <input type="text" name="nome">
+        </div>
+           
+        <div class="blocks">
+            <div class="labels">
+                    <label for="">Tipo:</label>
+            </div>
+            <input type="text" name="tipo">
+        </div>
+            
+        <div class="blocks">
+            <div class="labels">
+                    <label for="">Preço:</label>
+            </div>
+            <input type="text" name="preco">
+        </div>
+
+        <div class="blocks">
+        
+            <div class="labels">
+                    <label for="">Validade:</label>
+            </div>
+            <input type="text" name="validade">
+        </div>
+
+            <div id="salvar">
+                <input type="submit" value="Salvar">
+            </div>
+
+    </form>
+    </div>
+{% endblock %}
